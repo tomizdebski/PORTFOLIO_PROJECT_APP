@@ -41,7 +41,7 @@ const HeroSection = () => {
             Projects
           </Link>
           <a
-          className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 flex items-center"
+          className="text-neutral-100 gap-2 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 flex items-center"
           href="/CV.pdf"
           download
         >
