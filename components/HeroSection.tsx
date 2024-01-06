@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+import { HiDownload } from "react-icons/hi"
 
 const HeroSection = () => {
   return (
@@ -27,6 +28,7 @@ const HeroSection = () => {
             based in Warsaw. Working towards creating software that
             makes life easier and more meaningful.
           </p>
+          <div className="flex gap-2">
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -38,6 +40,16 @@ const HeroSection = () => {
           >
             Projects
           </Link>
+          <a
+          className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 flex items-center"
+          href="/CV.pdf"
+          download
+        >
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+      </div>
+
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
