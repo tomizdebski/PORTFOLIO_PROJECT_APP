@@ -13,7 +13,24 @@ const projects = [
     github: "https://github.com/tomizdebski/NEXT_PORTFOLIO_CLIENT",
     link: "https://next-portfolio-client-f3aq.vercel.app/",
   },
-  
+  {
+    name: "Chat App",
+    description:
+      "Application is used for chatting, based on socket.io.",
+    image: "/chat_app.png",
+    github: "https://github.com/tomizdebski/Chat_app_next",
+    link: "https://chat-app-next-l59r-e1w926cb2-tomizdebski.vercel.app/",
+  },
+  {
+    name: "Wyrzuta.pl App",
+    description:
+      "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction.",
+    image: "/wyrzuta_app.png",
+    github: "https://github.com/tomizdebski/wyrzuta_pl_frontend",
+    link: "http://wyrzuta.pl/",
+  },
+
+
 ]
 
 const ProjectsSection = () => {

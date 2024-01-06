@@ -45,7 +45,7 @@ const AboutSection = () => {
             <br />
             <p>
               I graduated from Paweł Włodkowic University College in Płock with
-              a bachelor's degree in management. Additionally, I completed
+              a bachelor degree in management. Additionally, I completed
               studies at the Warsaw School of Computer Science and Coders Lab -
               IT Academy, obtaining qualifications as a Python Developer and
               React Developer.

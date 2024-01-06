@@ -15,7 +15,7 @@ const Footer = () => {
           © 2023 Tomasz Izdebski<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+          <a href="https://github.com/tomizdebski" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
@@ -24,7 +24,7 @@ const Footer = () => {
           
 
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://linkedin.com/in/izdebski-tomasz-21058925/"
             rel="noreferrer"
             target="_blank"
           >
