@@ -13,6 +13,8 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body className="dark:bg-stone-900">
+      <div className="bg-[#fbe2e3] absolute top-[-1rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <div className="bg-[#dbd7fb] absolute top-[-6rem] left-[-35rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
