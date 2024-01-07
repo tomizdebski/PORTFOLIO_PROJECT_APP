@@ -11,7 +11,7 @@ const projects = [
       "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge.",
     image: "/barter_app_desktop.png",
     github: "https://github.com/tomizdebski/NEXT_PORTFOLIO_CLIENT",
-    link: "https://next-portfolio-client-f3aq.vercel.app/",
+    link: "https://next-portfolio-client-f303rjd70-tomizdebski.vercel.app/",
   },
   {
     name: "Chat App",
