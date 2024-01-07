@@ -29,6 +29,15 @@ const projects = [
     github: "https://github.com/tomizdebski/wyrzuta_pl_frontend",
     link: "http://wyrzuta.pl/",
   },
+  {
+    name: "BulettinBoard App",
+    description:
+      "THEBULETINBOARD.pl for free ads in the following categories: Electronics, Automotive, Real Estate, Work. Offers can be found quickly, and it is easy to submit an advertisement. If you want to sell something - you can easily add free ads. You can buy something - interesting bargains here, cheaper than in the store. Stack: Python, Django",
+    image: "/bulletinBoardApp.png",
+    github: "https://github.com/tomizdebski/bulletin_board/",
+    link: "https://github.com/tomizdebski/bulletin_board/",
+  },
+
 
 
 ]
