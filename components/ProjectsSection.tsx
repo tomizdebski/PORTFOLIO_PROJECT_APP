@@ -26,7 +26,7 @@ const projects = [
     description:
       "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction.",
     image: "/wyrzuta_app.png",
-    github: "https://github.com/tomizdebski/wyrzuta_pl_frontend",
+    github: "https://wyrzuta-pl-frontend-osv7e6z4j-tomizdebski.vercel.app/",
     link: "http://wyrzuta.pl/",
   },
   {
