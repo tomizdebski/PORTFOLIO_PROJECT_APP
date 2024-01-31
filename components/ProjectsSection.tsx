@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Shortly App",
+    description:
+      "The Shortly App is an application designed to compress long URLs, thereby creating shorter, more shareable, and memorable versions. It provides the perfect solution for condensing lengthy web addresses, making them more user-friendly. Stack: Nextjs, React, Typescript, Tailwindcss, MongoDB, Nodejs, Auth ",
+    image: "/shortly_app.png",
+    github: "https://github.com/tomizdebski/shortly_v1.git",
+    link: "https://github.com/tomizdebski/shortly_v1.git",
+  },
+  {
     name: "Barter Skill App",
     description:
       "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge.",
