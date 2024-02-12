@@ -11,7 +11,7 @@ const projects = [
       "The Shortly App is an application designed to compress long URLs, thereby creating shorter, more shareable, and memorable versions. It provides the perfect solution for condensing lengthy web addresses, making them more user-friendly. Stack: Nextjs, React, Typescript, Tailwindcss, MongoDB, Nodejs, Auth ",
     image: "/shortly_app.png",
     github: "https://github.com/tomizdebski/shortly_v1.git",
-    link: "https://shortly-v1.vercel.app/",
+    link: "https://www.shortly.com.pl/",
   },
   {
     name: "Barter Skill App",
@@ -19,7 +19,7 @@ const projects = [
       "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge.",
     image: "/barter_app.png",
     github: "https://github.com/tomizdebski/NEXT_PORTFOLIO_CLIENT",
-    link: "https://next-portfolio-client-f303rjd70-tomizdebski.vercel.app/",
+    link: "https://www.barter-skill.pl/",
   },
   {
     name: "Chat App",
@@ -27,7 +27,7 @@ const projects = [
       "Application is used for chatting, based on socket.io.",
     image: "/chat_app.png",
     github: "https://github.com/tomizdebski/Chat_app_next",
-    link: "https://chat-app-next-l59r-e1w926cb2-tomizdebski.vercel.app/",
+    link: "https://www.chat-online.pl/",
   },
   {
     name: "Wyrzuta.pl App",
@@ -35,7 +35,7 @@ const projects = [
       "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction.",
     image: "/wyrzuta_app.png",
     github: "https://github.com/tomizdebski/wyrzuta_pl_frontend",
-    link: "https://wyrzuta-pl-frontend-osv7e6z4j-tomizdebski.vercel.app/",
+    link: "https://wyrzuta.pl/",
   },
   {
     name: "BulettinBoard App",
