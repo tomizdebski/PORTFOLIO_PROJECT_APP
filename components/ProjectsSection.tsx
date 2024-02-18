@@ -22,14 +22,6 @@ const projects = [
     link: "https://www.barter-skill.pl/",
   },
   {
-    name: "Chat App",
-    description:
-      "Application is used for chatting, based on socket.io.",
-    image: "/chat_app.png",
-    github: "https://github.com/tomizdebski/Chat_app_next",
-    link: "https://www.chat-online.pl/",
-  },
-  {
     name: "Wyrzuta.pl App",
     description:
       "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction.",
@@ -45,6 +37,23 @@ const projects = [
     github: "https://github.com/tomizdebski/bulletin_board/",
     link: "https://github.com/tomizdebski/bulletin_board/",
   },
+  {
+    name: "Chat App",
+    description:
+      "Application is used for chatting, based on socket.io. Stack: Nextjs, React, Typescript, Tailwindcss, Nodejs, Socket.io, Express",
+    image: "/chat_app.png",
+    github: "https://github.com/tomizdebski/Chat_app_next",
+    link: "https://www.chat-online.pl/",
+  },
+  {
+    name: "TomChat App",
+    description:
+      "Application is used for chatting, based on socket.io. Stack: Nextjs, React, Typescript, Tailwindcss, Prisma, Nodejs, Auth, Socket.io, Postgres ",
+    image: "/chat_v2.png",
+    github: "https://github.com/tomizdebski/Chat_client_next_prisma_v2.git",
+    link: "https://github.com/tomizdebski/Chat_client_next_prisma_v2.git",
+  },
+
 
 
 
