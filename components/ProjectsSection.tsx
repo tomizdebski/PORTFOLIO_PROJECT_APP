@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Barter Skill App",
     description:
-      "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge.",
+      "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge. tack: Nextjs, React, Tailwindcss, Nodejs, Express, Prisma, Postgres",
     image: "/barter_app.png",
     github: "https://github.com/tomizdebski/NEXT_PORTFOLIO_CLIENT",
     link: "https://www.barter-skill.pl/",
@@ -24,7 +24,7 @@ const projects = [
   {
     name: "Wyrzuta.pl App",
     description:
-      "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction.",
+      "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction. Stack: React, Tailwindcss, Nodejs, Express",
     image: "/wyrzuta_app.png",
     github: "https://github.com/tomizdebski/wyrzuta_pl_frontend",
     link: "https://wyrzuta.pl/",
@@ -51,7 +51,7 @@ const projects = [
       "Application is used for chatting, based on socket.io. Stack: Nextjs, React, Typescript, Tailwindcss, Prisma, Nodejs, Auth, Socket.io, Postgres ",
     image: "/chat_v2.png",
     github: "https://github.com/tomizdebski/Chat_client_next_prisma_v2.git",
-    link: "https://github.com/tomizdebski/Chat_client_next_prisma_v2.git",
+    link: "https://chat-client-next-prisma-v2.vercel.app/chat",
   },
 
 
