@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Barter Skill App",
     description:
-      "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge. tack: Nextjs, React, Tailwindcss, Nodejs, Express, Prisma, Postgres",
+      "This is an application for exchanging skills between registered users. It also includes a quiz where you can test your knowledge. tack: Nextjs, React, Tailwindcss, Nodejs, Express, Prisma, Postgres, Auth",
     image: "/barter_app.png",
     github: "https://github.com/tomizdebski/NEXT_PORTFOLIO_CLIENT",
     link: "https://www.barter-skill.pl/",
@@ -32,7 +32,7 @@ const projects = [
   {
     name: "BulettinBoard App",
     description:
-      "THEBULETINBOARD.pl for free ads in the following categories: Electronics, Automotive, Real Estate, Work. Offers can be found quickly, and it is easy to submit an advertisement. If you want to sell something - you can easily add free ads. You can buy something - interesting bargains here, cheaper than in the store. Stack: Python, Django",
+      "THEBULETINBOARD.pl for free ads in the following categories: Electronics, Automotive, Real Estate, Work. Offers can be found quickly, and it is easy to submit an advertisement. Stack: Python, Django",
     image: "/bulletinBoardApp.png",
     github: "https://github.com/tomizdebski/bulletin_board/",
     link: "https://github.com/tomizdebski/bulletin_board/",
@@ -73,14 +73,14 @@ const ProjectsSection = () => {
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                  <div className=" md:w-1/2 mt-8">
+                    <Link href={project.link} >
                       <Image
                         src={project.image}
                         alt=""
                         width={1000}
                         height={1000}
-                        className="hover:opacity-70"
+                        className="hover:opacity-70 "
                       />
                     </Link>
                   </div>
