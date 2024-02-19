@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Shortly App",
     description:
-      "The Shortly App is an application designed to compress long URLs, thereby creating shorter, more shareable, and memorable versions. It provides the perfect solution for condensing lengthy web addresses, making them more user-friendly. Stack: Nextjs, React, Typescript, Tailwindcss, MongoDB, Nodejs, Auth ",
+      "The Shortly App is an application designed to compress long URLs, thereby creating shorter, more shareable, and memorable versions.  Stack: Nextjs, React, Typescript, Tailwindcss, MongoDB, Nodejs, Auth ",
     image: "/shortly_app.png",
     github: "https://github.com/tomizdebski/shortly_v1.git",
     link: "https://www.shortly.com.pl/",
