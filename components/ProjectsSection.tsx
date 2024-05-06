@@ -5,6 +5,15 @@ import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
+
+{
+    name: "Kanban App",
+    description:
+      "The Kanban App is a project management application designed to streamline task organization and workflow efficiency. It utilizes a Kanban board layout, allowing users to visualize and manage tasks through drag-and-drop functionality. Stack: Nextjs, React, Typescript, Tailwindcss, Nodejs, React-dnd-kit ",
+    image: "/Kanban.png",
+    github: "https://github.com/tomizdebski/KANBAN_APP",
+    link: "https://kanban-3ef99iik0-tomizdebskis-projects.vercel.app/",
+  },
   {
     name: "Shortly App",
     description:
