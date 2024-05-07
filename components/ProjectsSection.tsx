@@ -60,7 +60,7 @@ const projects = [
       "Application is used for chatting, based on socket.io. Stack: Nextjs, React, Typescript, Tailwindcss, Prisma, Nodejs, Auth, Socket.io, Postgres ",
     image: "/chat_v2.png",
     github: "https://github.com/tomizdebski/Chat_client_next_prisma_v2.git",
-    link: "https://chat-client-next-prisma-v2.vercel.app/chat",
+    link: "https://chat-client-next-prisma-v2.vercel.app/",
   },
 
 
