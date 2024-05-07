@@ -20,7 +20,7 @@ const projects = [
       "The Shortly App is an application designed to compress long URLs, thereby creating shorter, more shareable, and memorable versions.  Stack: Nextjs, React, Typescript, Tailwindcss, MongoDB, Nodejs, Auth ",
     image: "/shortly_app.png",
     github: "https://github.com/tomizdebski/shortly_v1.git",
-    link: "https://www.shortly.com.pl/",
+    link: "https://shortly-app-v2-neon.vercel.app/",
   },
   {
     name: "Barter Skill App",
