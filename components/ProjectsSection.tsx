@@ -1,18 +1,17 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
-
-{
+  {
     name: "Kanban App",
     description:
       "The Kanban App is a project management application designed to streamline task organization and workflow efficiency. It utilizes a Kanban board layout, allowing users to visualize and manage tasks through drag-and-drop functionality. Stack: Nextjs, React, Typescript, Tailwindcss, Nodejs, React-dnd-kit ",
     image: "/Kanban.png",
     github: "https://github.com/tomizdebski/KANBAN_APP",
-    link: "https://kanban-4h6n8knei-tomizdebskis-projects.vercel.app/",
+    link: "https://kanban-app-bay.vercel.app/",
   },
   {
     name: "Shortly App",
@@ -62,11 +61,7 @@ const projects = [
   //   github: "https://github.com/tomizdebski/Chat_client_next_prisma_v2.git",
   //   link: "https://chat-client-next-prisma-v2.vercel.app/",
   // },
-
-
-
-
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -83,7 +78,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2 mt-8">
-                    <Link href={project.link} >
+                    <Link href={project.link}>
                       <Image
                         src={project.image}
                         alt=""
@@ -116,12 +111,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
