@@ -2,27 +2,40 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
-  { skill: "HTML" },
+  { skill: "Angular" },
   { skill: "CSS" },
-  { skill: "SASS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Express" },
-  { skill: "Next.js" },
-  { skill: "Node.js" },
-  { skill: "MongoDB" },
-  { skill: "PostgreSQL" },
-  { skill: "Tailwind" },
+  { skill: "Cypress" },
   { skill: "Docker" },
-  { skill: "Context API" },
+  { skill: "Express" },
+  { skill: "Figma" },
   { skill: "Git" },
   { skill: "GitHub" },
+  { skill: "HTML" },
+  { skill: "JavaScript" },
+  { skill: "MongoDB" },
+  { skill: "Next.js" },
+  { skill: "Node.js" },
+  { skill: "PostgreSQL" },
   { skill: "Prisma" },
+  { skill: "Python" },
+  { skill: "React" },
+  { skill: "SASS" },
   { skill: "Socket.io" },
-  { skill: "Cypress" },
-  { skill: "Figma" },
+  { skill: "Tailwind" },
+  { skill: "TypeScript" },
+];
+
+const programmingLanguages = skills.filter((item) => {
+  return ["JavaScript", "Python", "TypeScript"].includes(item.skill);
+});
+
+const libraries = skills.filter((item) => {
+  return !["JavaScript", "Python", "TypeScript"].includes(item.skill);
+});
+
+const sortedSkills = [
+  ...programmingLanguages,
+  ...libraries
 ];
 
 const AboutSection = () => {
