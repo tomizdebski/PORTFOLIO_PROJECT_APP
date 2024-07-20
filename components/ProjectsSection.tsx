@@ -35,7 +35,7 @@ const projects = [
       "The app enables the donation of unnecessary items. You can create an account, post an advertisement, check the location, and finalize the transaction. Stack: React, Tailwindcss, Nodejs, Express",
     image: "/wyrzuta_app.png",
     github: "https://github.com/tomizdebski/wyrzuta_pl_frontend",
-    link: "https://wyrzuta-pl-frontend-tomizdebski.vercel.app/",
+    link: "https://wyrzuta-pl-frontend.vercel.app/",
   },
   {
     name: "BulettinBoard App",
