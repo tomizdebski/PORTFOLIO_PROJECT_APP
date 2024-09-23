@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Cookify App",
+    description:
+      "A user-friendly recipe app offering a wide range of delicious, easy-to-follow recipes for all occasions. Perfect for both beginners and experienced cooks, with step-by-step instructions and helpful tips!. Stack: Nextjs, React, Typescript, Tailwindcss, Nodejs, Graphql, Redux-toolkit, Prisma, Postgres, Clerk ",
+    image: "/cookify.png",
+    github: "https://github.com/tomizdebski/cookify-app-nextjs.git",
+    link: "https://cookify-app-nextjs-hrq7.vercel.app/",
+  },
+  {
     name: "Kanban App",
     description:
       "The Kanban App is a project management application designed to streamline task organization and workflow efficiency. It utilizes a Kanban board layout, allowing users to visualize and manage tasks through drag-and-drop functionality. Stack: Nextjs, React, Typescript, Tailwindcss, Nodejs, React-dnd-kit ",
