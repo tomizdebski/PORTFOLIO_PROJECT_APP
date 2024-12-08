@@ -2,27 +2,47 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
+  // Languages
+  { skill: "JavaScript" },
+  { skill: "Python" },
+  { skill: "TypeScript" },
+
+  // Frontend
   { skill: "Angular" },
+  { skill: "Vue" },
+  { skill: "React" }, 
   { skill: "CSS" },
-  { skill: "Cypress" },
-  { skill: "Docker" },
+  { skill: "HTML" },
+  { skill: "React" },
+  { skill: "SASS" },
+  { skill: "Tailwind" },
+
+  // Backend
+  { skill: "Node.js" },
   { skill: "Express" },
+  { skill: "Next.js" },
+  { skill: "Nest.js" },
+  { skill: "Socket.io" },
+  { skill: "GraphQL" },
+  { skill: "REST" },
+  { skill: "Context API" },
+  { skill: "Redux" },
+  { skill: "Apollo" },
+  
+
+  // Databases
+  { skill: "MongoDB" },
+  { skill: "PostgreSQL" },
+  { skill: "Prisma" },
+  { skill: "TypeORM" },
+
+  // Tools
+  { skill: "Cypress" },
+  { skill : "Jest"},
+  { skill: "Docker" },
   { skill: "Figma" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "HTML" },
-  { skill: "JavaScript" },
-  { skill: "MongoDB" },
-  { skill: "Next.js" },
-  { skill: "Node.js" },
-  { skill: "PostgreSQL" },
-  { skill: "Prisma" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "SASS" },
-  { skill: "Socket.io" },
-  { skill: "Tailwind" },
-  { skill: "TypeScript" },
 ];
 
 const programmingLanguages = skills.filter((item) => {
